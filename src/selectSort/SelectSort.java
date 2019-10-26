@@ -5,7 +5,7 @@ public class SelectSort {
 
 	public static void main(String[] args) {
 
-		int[] originArray = { 3, 1, 6, 2, 7, 5 };
+		int[] originArray = { 3, 1, 6, 9, 7, 5 };
 
 		for (int j = 1; j < originArray.length; j++) {
 			for (int i = 0; i < originArray.length - 1; i++) {
